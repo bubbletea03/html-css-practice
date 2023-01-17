@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    background-color: gray;
+    color: white;
+}
+
+div.title {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+div.item-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.links {
+    margin-right: 30px;
+}
+
+div.menu {
+    display: none;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    div.item-container {
+        display: none;
+        /* none으로 해두고 JS에서 열면 뜨게 하는 방법밖에 생각이 안남 */
+    }
+    div.links {
+        display: none;
+    }
+    div.menu {
+        display: block;
+    }
+}
