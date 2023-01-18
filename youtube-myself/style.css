@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.video-screen {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    background-color: gray;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+}
